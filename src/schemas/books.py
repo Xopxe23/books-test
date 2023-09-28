@@ -6,7 +6,7 @@ class BookSchema(BaseModel):
     title: str
     author: str
 
-    class Config:
+    class ConfigDict:
         from_attributes = True
 
 
